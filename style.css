@@ -1,0 +1,131 @@
+@font-face {
+    font-family: IBMPlexSans;
+    src: url("IBMPlexSans-SemiBold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: IBMPlexSans;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+main{
+    width: 700px;
+    height: 400px;
+    background-color: #121214;
+    text-align: center;
+    border-radius: 10px;
+}
+
+figcaption{
+    display: none;
+}
+
+#logo{
+    margin: auto;
+    display: block;
+    width: 229px;
+    height: 68px; 
+    display: flex;
+    justify-content: center;
+
+}
+
+#texto__menu{
+    padding-bottom: 25px;
+    font-family: IBMPlexSans;
+    font-size: 20px;
+    color: #fff;
+}
+
+.container{
+    display: flex;  
+    justify-content: space-around; 
+}
+
+.avatar{
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;    
+}
+
+.img-zoom{
+    transition: all 0.3s;
+}
+
+.img-zoom:hover{
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+.fundo{
+    background-color: #1E1E20;
+    border-radius: 10px;
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+
+.circulo img{
+    position: absolute;  
+    top: 50%;
+    left: 50%;
+    padding: 100%;
+    transform: translate(-50%, -50%);
+    transition: 0.05s;
+}
+
+.traco1 img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 100%;
+    transform: translate(-50%, -50%);
+    transition: 0.05s;
+}
+
+.traco2 img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 100%;
+    transform: translate(-50%, -50%);
+    transition: 0.05s;
+}
+
+.vetor:hover{
+    opacity: 0.3;
+    transition: 0.05s;
+}
+
+.texto-usu{
+
+}
+
+#bt{
+    padding: 20px;
+}
+
+.botao{
+    font-family: IBMPlexSans;
+    padding: 10px 20px 10px 20px;
+    border-color: #fff;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #121214;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botao:hover{
+    background-color: #fff;
+    color: #1E1E20;
+    transition: 0.3s;
+}
